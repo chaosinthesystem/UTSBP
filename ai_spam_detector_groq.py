@@ -8,8 +8,8 @@ from googleapiclient.errors import HttpError
 from groq import Groq
 
 # API Keys (These will be replaced by the user)
-YOUTUBE_API_KEY = "AIzaSyAs7YCnbZuQxVXldp69i4qmIfPmyYLKm64"
-GROQ_API_KEY = "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"
+YOUTUBE_API_KEY = ""
+GROQ_API_KEY = ""
 
 # Initialize APIs
 youtube = build("youtube", "v3", developerKey=YOUTUBE_API_KEY)
